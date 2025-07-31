@@ -22,7 +22,7 @@ export default function TreatmentCard({ title, description, images, compact = fa
       {/* Image Carousel */}
       <div className={`relative w-full ${compact ? 'h-32 min-h-[120px]' : 'h-56 min-h-[240px]'}`}>
         <Image
-          src={images[currentImageIndex]}
+          src={`/${images[currentImageIndex]}`}
           alt={`${title} image`}
           fill
           className="object-cover transition-opacity duration-500 ease-in-out"
