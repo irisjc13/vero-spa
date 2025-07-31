@@ -1,0 +1,27 @@
+<svg width="1200" height="60" viewBox="0 0 1200 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="divider-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4c355e;stop-opacity:0.1" />
+      <stop offset="50%" style="stop-color:#83708b;stop-opacity:0.05" />
+      <stop offset="100%" style="stop-color:#4c355e;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main curved path -->
+  <path d="M0 30 Q300 10 600 30 Q900 50 1200 30" 
+        fill="none" 
+        stroke="url(#divider-gradient)" 
+        stroke-width="1" 
+        opacity="0.6"/>
+  
+  <!-- Decorative dots -->
+  <circle cx="200" cy="25" r="1" fill="#4c355e" opacity="0.3"/>
+  <circle cx="400" cy="35" r="1" fill="#83708b" opacity="0.3"/>
+  <circle cx="600" cy="25" r="1" fill="#4c355e" opacity="0.3"/>
+  <circle cx="800" cy="35" r="1" fill="#83708b" opacity="0.3"/>
+  <circle cx="1000" cy="25" r="1" fill="#4c355e" opacity="0.3"/>
+  
+  <!-- Subtle flourishes -->
+  <path d="M150 20 Q160 15 170 20" fill="none" stroke="#4c355e" stroke-width="0.5" opacity="0.2"/>
+  <path d="M1050 40 Q1060 45 1070 40" fill="none" stroke="#83708b" stroke-width="0.5" opacity="0.2"/>
+</svg> 
